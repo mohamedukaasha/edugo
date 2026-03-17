@@ -4722,3 +4722,57 @@ section {
     opacity: 0.5;
     font-size: 0.8rem;
 }
+
+/* Career Page - Open Positions Grid */
+.career-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5rem;
+    border-top: 1px solid var(--border-color);
+}
+
+.career-grid .feature-card {
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    padding: 5rem 4rem !important;
+    transition: background var(--transition-normal);
+}
+
+/* Vertical split line */
+.career-grid .feature-card:nth-child(odd) {
+    border-right: 1px solid var(--border-color);
+}
+
+/* Horizontal split line for rows */
+.career-grid .feature-card:nth-child(n+3) {
+    border-top: 1px solid var(--border-color);
+}
+
+.career-grid .feature-card:hover {
+    background: rgba(255, 214, 0, 0.02);
+    transform: none;
+}
+
+@media (max-width: 992px) {
+    .career-grid {
+        grid-template-columns: 1fr;
+        margin-top: 3rem;
+    }
+    
+    .career-grid .feature-card {
+        padding: 3rem 1.5rem !important;
+        border-bottom: 1px solid var(--border-color) !important;
+        border-right: none !important;
+        border-top: none !important;
+    }
+    
+    /* Remove bottom border from last child on mobile */
+    .career-grid .feature-card:last-child {
+        border-bottom: none !important;
+    }
+
+    .career-grid .feature-card:hover {
+        background: transparent; /* Disable hover background on mobile touch */
+    }
+}
