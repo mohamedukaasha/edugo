@@ -4573,11 +4573,44 @@ section {
     padding-left: 1.5rem;
 }
 
-@media (max-width: 768px) {
+
+@media (max-width: 992px) {
     .journey-grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         gap: 3rem;
     }
 }
+
+@media (max-width: 768px) {
+    .learner-journey {
+        padding: 6rem 0;
+    }
+    
+    .journey-grid {
+        grid-template-columns: 1fr;
+        gap: 4rem;
+        margin-top: 3rem;
+    }
+
+    .journey-header {
+        margin-bottom: 1.5rem;
+    }
+
+    .learner-photo {
+        width: 48px;
+        height: 48px;
+    }
+
+    .journey-path {
+        padding: 1.25rem;
+    }
+
+    .journey-testimonial blockquote {
+        font-size: 1rem;
+        padding-left: 1.25rem;
+    }
+}
+
 
 
 
