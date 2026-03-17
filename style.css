@@ -314,6 +314,7 @@ p {
 
 .hero-title {
     margin-bottom: 1.5rem;
+    font-weight: 400;
 }
 
 .hero-title span {
@@ -336,6 +337,7 @@ p {
 .hero-subtitle {
     margin-bottom: 2.5rem;
     font-size: 1.25rem;
+    font-weight: 300;
 }
 
 .hero-cta {
