@@ -141,6 +141,11 @@ p {
     box-shadow: var(--shadow-yellow);
 }
 
+.btn-rounded {
+    border-radius: 30px !important;
+    font-weight: 400 !important;
+}
+
 .btn-massive {
     padding: 0.875rem 3rem;
     font-size: 1rem;
@@ -556,44 +561,51 @@ section {
     background-color: var(--bg-secondary);
 }
 
+
 .features-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 4rem;
 }
 
 .feature-card {
-    background: var(--bg-primary);
-    padding: 2.5rem;
-    border: 1px solid var(--border-color);
-    border-radius: var(--radius-lg);
-    transition: all var(--transition-normal);
+    background: transparent;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    transition: transform var(--transition-normal);
 }
 
 .feature-card:hover {
-    border-color: var(--text-primary);
+    transform: translateY(-8px);
 }
 
 .feature-icon {
-    width: 48px;
-    height: 48px;
-    border-radius: var(--radius-sm);
-    background-color: var(--bg-secondary);
-    color: var(--text-primary);
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    color: var(--accent-yellow);
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     transition: all var(--transition-fast);
 }
 
 .feature-card:hover .feature-icon {
-    background-color: var(--accent-yellow);
+    transform: scale(1.1);
 }
 
 .feature-card h3 {
-    margin-bottom: 1rem;
-    font-weight: 600;
+    margin-bottom: 0.75rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.feature-card p {
+    color: var(--text-secondary);
+    line-height: 1.7;
+    font-size: 1.05rem;
 }
 
 /* Mentor Individual Cards */
