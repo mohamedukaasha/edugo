@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses | Edugo</title>
+    <meta name="description" content="Explore meticulously curated, modern professional courses with Edugo.">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="logo.png" alt="Edugo" class="logo-image">
+            </a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="courses.html" class="nav-link" style="color: var(--text-primary); border-bottom: 2px solid var(--accent-yellow);">Courses</a>
+                <a href="mentorship.html" class="nav-link">Mentorship</a>
+                <a href="blog.html" class="nav-link">Blog</a>
+                <a href="about.html" class="nav-link">About Us</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <a href="https://forms.gle/16Fx5tUGjKrQwdWe6" target="_blank" class="btn btn-primary">Register for Webinar</a>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="hero" style="min-height: auto; padding-top: calc(var(--nav-height) + 6rem); padding-bottom: 4rem; background: radial-gradient(circle at center, rgba(255, 214, 0, 0.08), transparent 50%);">
+        <div class="hero-container" style="grid-template-columns: 1fr; text-align: center;">
+            <div class="hero-content" style="max-width: 800px; margin: 0 auto;">
+
+                <h1 class="hero-title">Our <span>Course</span> Catalog</h1>
+                <p class="hero-subtitle">Premium, stripped-back content for rapid professional growth. Hand-crafted by elite instructors.</p>
+            </div>
+        </div>
+    </header>
+
+
+
+    <!-- All Courses -->
+    <section class="courses" id="courses" style="padding-top: 2rem;">
+        <div class="section-container">
+            <div class="course-grid corporate-grid">
+                <!-- Course 1 -->
+                <div class="course-card">
+                    <div class="course-category-strip">Design excellence</div>
+                    <div class="course-content">
+                        <div class="course-header-main">
+                            <h3 class="course-title">Advanced UI/UX Design</h3>
+                            <span class="course-id">01</span>
+                        </div>
+                        <p class="course-summary">Comprehensive curriculum on modern design systems and user psychology.</p>
+                        
+                        <div class="course-data-grid">
+
+                            <div class="data-point">
+                                <span class="data-label">Duration</span>
+                                <span class="data-value">8 Weeks</span>
+                            </div>
+                            <div class="data-point">
+                                <span class="data-label">Tier</span>
+                                <span class="data-value">Professional</span>
+                            </div>
+                        </div>
+
+                        <div class="course-footer">
+
+                            <a href="enroll.html?path=uiux" class="btn-box-link">Enroll Path <i data-lucide="arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course 2 -->
+                <div class="course-card">
+                    <div class="course-category-strip">Engineering core</div>
+                    <div class="course-content">
+                        <div class="course-header-main">
+                            <h3 class="course-title">Full-Stack Engineering</h3>
+                            <span class="course-id">02</span>
+                        </div>
+                        <p class="course-summary">Technical excellence across the entire stack, from database optimization to frontend.</p>
+                        
+                        <div class="course-data-grid">
+
+                            <div class="data-point">
+                                <span class="data-label">Duration</span>
+                                <span class="data-value">12 Weeks</span>
+                            </div>
+                            <div class="data-point">
+                                <span class="data-label">Tier</span>
+                                <span class="data-value">Technical</span>
+                            </div>
+                        </div>
+
+                        <div class="course-footer">
+
+                            <a href="enroll.html?path=fullstack" class="btn-box-link">Enroll Path <i data-lucide="arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course 3 -->
+                <div class="course-card">
+                    <div class="course-category-strip">Data architecture</div>
+                    <div class="course-content">
+                        <div class="course-header-main">
+                            <h3 class="course-title">Data Science Foundations</h3>
+                            <span class="course-id">03</span>
+                        </div>
+                        <p class="course-summary">Foundational and advanced data analysis patterns for enterprise decision making.</p>
+                        
+                        <div class="course-data-grid">
+
+                            <div class="data-point">
+                                <span class="data-label">Duration</span>
+                                <span class="data-value">10 Weeks</span>
+                            </div>
+                            <div class="data-point">
+                                <span class="data-label">Tier</span>
+                                <span class="data-value">Analytical</span>
+                            </div>
+                        </div>
+
+                        <div class="course-footer">
+
+                            <a href="enroll.html?path=datascience" class="btn-box-link">Enroll Path <i data-lucide="arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course 4 -->
+                <div class="course-card">
+                    <div class="course-category-strip">Frontend architecture</div>
+                    <div class="course-content">
+                        <div class="course-header-main">
+                            <h3 class="course-title">React Design Patterns</h3>
+                            <span class="course-id">04</span>
+                        </div>
+                        <p class="course-summary">Mastering advanced component architecture and state management at scale.</p>
+                        
+                        <div class="course-data-grid">
+
+                            <div class="data-point">
+                                <span class="data-label">Duration</span>
+                                <span class="data-value">6 Weeks</span>
+                            </div>
+                            <div class="data-point">
+                                <span class="data-label">Tier</span>
+                                <span class="data-value">Specialized</span>
+                            </div>
+                        </div>
+
+                        <div class="course-footer">
+
+                            <a href="enroll.html?path=react" class="btn-box-link">Enroll Path <i data-lucide="arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course 5 -->
+                <div class="course-card">
+                    <div class="course-category-strip">Project management</div>
+                    <div class="course-content">
+                        <div class="course-header-main">
+                            <h3 class="course-title">Agile Product Delivery</h3>
+                            <span class="course-id">05</span>
+                        </div>
+                        <p class="course-summary">Enterprise-grade product management with a focus on high-velocity delivery.</p>
+                        
+                        <div class="course-data-grid">
+
+                            <div class="data-point">
+                                <span class="data-label">Duration</span>
+                                <span class="data-value">8 Weeks</span>
+                            </div>
+                            <div class="data-point">
+                                <span class="data-label">Tier</span>
+                                <span class="data-value">Leadership</span>
+                            </div>
+                        </div>
+
+                        <div class="course-footer">
+
+                            <a href="enroll.html?path=agile" class="btn-box-link">Enroll Path <i data-lucide="arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Special Services Section -->
+    <section class="special-services">
+        <div class="section-container">
+            <div class="section-header align-left">
+                <h2 class="massive-title" style="margin-bottom: 2rem;">Academics & <span>Consultation</span></h2>
+                <p style="max-width: 600px;">Bespoke guidance for institutions and students navigating the higher education landscape.</p>
+            </div>
+
+            <div class="services-row">
+                <!-- Service 1 -->
+                <div class="service-block">
+                    <div class="service-label">For institutions</div>
+                    <h3>University Architecture Consultation</h3>
+                    <p>We partner with universities to bridge the gap between academic theory and industry reality, modernizing curriculum structures for the digital age.</p>
+                    <ul class="service-features">
+                        <li><i data-lucide="check"></i> Curriculum Modernization</li>
+                        <li><i data-lucide="check"></i> Industry Integration Frameworks</li>
+                        <li><i data-lucide="check"></i> Technological Infrastructure Audits</li>
+                    </ul>
+                    <a href="university-consultation.html" class="btn btn-text">Request Partnership <i data-lucide="arrow-right"></i></a>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-block">
+                    <div class="service-label">For students</div>
+                    <h3>College Admissions Consulting</h3>
+                    <p>Strategic guidance for high-performing students aiming for elite global institutions. We help craft narratives that stand out in the most competitive pools.</p>
+                    <ul class="service-features">
+                        <li><i data-lucide="check"></i> Strategic Application Narrative</li>
+                        <li><i data-lucide="check"></i> Portfolio & Case Study Development</li>
+                        <li><i data-lucide="check"></i> Global Institution Matching</li>
+                    </ul>
+                    <a href="admissions-consulting.html" class="btn btn-text">Explore Consulting <i data-lucide="arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Journey Of Our Learners Section -->
+    <section class="learner-journey">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>Journey Of Our <span>Learners</span></h2>
+                <p>Witness the professional transformation of students who chose the Edugo path.</p>
+            </div>
+            <div class="journey-grid">
+                <!-- Learner 1 -->
+                <div class="journey-card">
+                    <div class="journey-header">
+                        <div class="learner-photo">PK</div>
+                        <div class="learner-info">
+                            <h3>Padmini Kadhirvel</h3>
+                            <p>Automation Testing Engineer</p>
+                        </div>
+                    </div>
+                    <div class="journey-path">
+                        <div class="path-step">
+                            <span class="step-label">Once</span>
+                            <span class="step-title">Online Support Associate</span>
+                        </div>
+                        <div class="path-step">
+                            <span class="step-label">Now</span>
+                            <span class="step-title">Automation Testing Engineer</span>
+                        </div>
+                    </div>
+                    <div class="journey-testimonial">
+                        <blockquote>"The transition was seamless. Edugo's curriculum is perfectly aligned with industry requirements."</blockquote>
+                    </div>
+                </div>
+
+                <!-- Learner 2 -->
+                <div class="journey-card">
+                    <div class="journey-header">
+                        <div class="learner-photo">RS</div>
+                        <div class="learner-info">
+                            <h3>Rahul Sharma</h3>
+                            <p>Full-Stack Developer</p>
+                        </div>
+                    </div>
+                    <div class="journey-path">
+                        <div class="path-step">
+                            <span class="step-label">Once</span>
+                            <span class="step-title">Mechanical Graduate</span>
+                        </div>
+                        <div class="path-step">
+                            <span class="step-label">Now</span>
+                            <span class="step-title">Full-Stack Engineer</span>
+                        </div>
+                    </div>
+                    <div class="journey-testimonial">
+                        <blockquote>"From mechanical parts to code blocks. Edugo made the pivot possible with amazing mentors."</blockquote>
+                    </div>
+                </div>
+
+                <!-- Learner 3 -->
+                <div class="journey-card">
+                    <div class="journey-header">
+                        <div class="learner-photo" style="background: var(--accent-yellow); color: #111;">JC</div>
+                        <div class="learner-info">
+                            <h3>Jessica Chen</h3>
+                            <p>Senior UX Lead</p>
+                        </div>
+                    </div>
+                    <div class="journey-path">
+                        <div class="path-step">
+                            <span class="step-label">Once</span>
+                            <span class="step-title">Freelance Designer</span>
+                        </div>
+                        <div class="path-step">
+                            <span class="step-label">Now</span>
+                            <span class="step-title">Senior UX Lead</span>
+                        </div>
+                    </div>
+                    <div class="journey-testimonial">
+                        <blockquote>"I advanced my career by years in just a few months. The depth of knowledge here is unmatched."</blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- FAQ Section -->
+    <section class="faq section-minimal" style="background-color: var(--bg-secondary);">
+        <div class="section-container minimal-grid align-top">
+            <div class="minimal-header">
+                <div class="badge-sm">Help Center</div>
+                <h2 class="massive-title">Common <span>Questions</span></h2>
+                <p>Transparent answers to everything you need to know about starting your journey with us.</p>
+                <div class="minimal-contact-info">
+                    <p>Still have questions?</p>
+                    <a href="contact.html" class="link-underlined">Get in touch <i data-lucide="arrow-up-right"></i></a>
+                </div>
+            </div>
+            <div class="faq-stack">
+                <div class="faq-minimal-item">
+                    <button class="faq-toggle">
+                        <span class="faq-number">01</span>
+                        <span class="faq-label">Do I get a certificate upon completion?</span>
+                        <div class="faq-status">
+                            <div class="plus-icon"></div>
+                        </div>
+                    </button>
+                    <div class="faq-panel">
+                        <div class="faq-panel-inner">
+                            <p>Yes, every Edugo path includes a verifiable digital certificate. Our certificates are recognized by top tech employers worldwide as a mark of specialized expertise.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-minimal-item">
+                    <button class="faq-toggle">
+                        <span class="faq-number">02</span>
+                        <span class="faq-label">How long do I have access to the courses?</span>
+                        <div class="faq-status">
+                            <div class="plus-icon"></div>
+                        </div>
+                    </button>
+                    <div class="faq-panel">
+                        <div class="faq-panel-inner">
+                            <p>Once you enroll in a path, you get lifetime access to all its materials, including all future updates, curriculum additions, and community resources.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-minimal-item">
+                    <button class="faq-toggle">
+                        <span class="faq-number">03</span>
+                        <span class="faq-label">Are there prerequisites for the courses?</span>
+                        <div class="faq-status">
+                            <div class="plus-icon"></div>
+                        </div>
+                    </button>
+                    <div class="faq-panel">
+                        <div class="faq-panel-inner">
+                            <p>Most of our "Foundations" paths require zero prior experience. However, our "Professional" and "Technical" tiers assume basic industry familiarity as detailed in each specific syllabus.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-minimal-item">
+                    <button class="faq-toggle">
+                        <span class="faq-number">04</span>
+                        <span class="faq-label">Can I interact with the mentors?</span>
+                        <div class="faq-status">
+                            <div class="plus-icon"></div>
+                        </div>
+                    </button>
+                    <div class="faq-panel">
+                        <div class="faq-panel-inner">
+                            <p>Absolutely. Depending on your tier, you get access to group office hours or dedicated 1-on-1 sessions with our industry-leading mentors who provide direct architectural feedback.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Path Approach Section -->
+    <section class="section-methodology" style="background: var(--bg-secondary); padding: 6rem 0;">
+        <div class="section-container">
+            <div class="section-header align-left">
+                <h2>The Edugo <span>Methodology</span></h2>
+                <p>We don't just throw videos at you. Every course follows a strict framework.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><i data-lucide="compass"></i></div>
+                    <h3>Phase 1: Foundation</h3>
+                    <p>Master the core concepts without the academic fluff. Learn exactly what's used in production.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i data-lucide="layers"></i></div>
+                    <h3>Phase 2: Application</h3>
+                    <p>Build real-world projects that simulate actual industry tasks and sprints.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i data-lucide="rocket"></i></div>
+                    <h3>Phase 3: Elevation</h3>
+                    <p>Refine your execution with senior mentors and prepare for advanced roles.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="index.html" class="logo footer-logo">
+                    <img src="logo.png" alt="Edugo" class="logo-image">
+                </a>
+                <p class="footer-description">Master your future with professional, curated, and professional learning paths.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+                    <a href="#" aria-label="Twitter"><i data-lucide="twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+                    <a href="#" aria-label="Github"><i data-lucide="github"></i></a>
+                </div>
+            </div>
+            <div class="footer-links-group">
+                <div class="footer-column">
+                    <h4>Platform</h4>
+                    <a href="courses.html">Courses</a>
+                    <a href="mentorship.html">Mentorship</a>
+                    <a href="pricing.html">Pricing</a>
+                    <a href="become-a-mentor.html">Become a Mentor</a>
+
+                </div>
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <a href="about.html">About Us</a>
+                    <a href="careers.html">Careers</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Legal</h4>
+                    <a href="terms.html">Terms of Service</a>
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="cookies.html">Cookie Policy</a>
+                    <a href="sitemap.html">Site Map</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> Edugo Inc. All rights reserved.</p>
+            <p>Developed by <a href="https://www.echoess.in" target="_blank" class="dev-link">Echoes Software Technologies</a></p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
