@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | Edugo</title>
+    <meta name="description" content="Secure your spot in our premium learning paths. Register for your chosen Edugo course today.">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body style="background-color: var(--bg-secondary);">
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="logo.png" alt="Edugo" class="logo-image">
+            </a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="courses.html" class="nav-link">Courses</a>
+                <a href="mentorship.html" class="nav-link">Mentorship</a>
+                <a href="blog.html" class="nav-link">Blog</a>
+                <a href="about.html" class="nav-link">About Us</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <a href="https://forms.gle/16Fx5tUGjKrQwdWe6" target="_blank" class="btn btn-primary">Register for Webinar</a>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Enrollment Content -->
+    <main class="enroll-page-wrapper">
+        <header class="enroll-hero-minimal">
+
+            <h1 class="hero-title">Secure Your <br><span>Future</span></h1>
+            <p class="hero-subtitle">Complete the specialized registration below to begin your elite learning trajectory.</p>
+        </header>
+
+        <section class="enroll-master-grid">
+            <!-- Table Style Form -->
+            <div class="enroll-table-container">
+                <form id="enrollmentForm" class="enroll-table-form">
+                    <div class="form-row">
+                        <div class="form-row-label">Identify</div>
+                        <div class="form-row-input-box">
+                            <input type="text" placeholder="Your Full Name" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-row-label">Terminal</div>
+                        <div class="form-row-input-box">
+                            <input type="email" placeholder="professional@email.com" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-row-label">Selection</div>
+                        <div class="form-row-input-box">
+                            <select id="courseSelect" required>
+                                <option value="" disabled selected>Select Your Path</option>
+                                <option value="uiux">Advanced UI/UX Design</option>
+                                <option value="fullstack">Full-Stack Engineering</option>
+                                <option value="datascience">Data Science Foundations</option>
+                                <option value="react">React Design Patterns</option>
+                                <option value="agile">Agile Product Delivery</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-row-label">Expertise</div>
+                        <div class="form-row-input-box">
+                            <select id="experienceSelect" required>
+                                <option value="" disabled selected>Professional Experience Level</option>
+                                <option value="novice">Foundational / Student</option>
+                                <option value="intermediate">Practitioner (1-3 Years)</option>
+                                <option value="advanced">Senior / Lead (4+ Years)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-row-label">Objective</div>
+                        <div class="form-row-input-box">
+                            <input type="text" placeholder="Primary learning goal or career target" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row" style="border-bottom: none; padding-top: 2rem;">
+                        <div class="form-row-label">Agreement</div>
+                        <div class="form-row-input-box">
+                            <label class="checkbox-container">
+                                <input type="checkbox" required>
+                                <span class="checkmark"></span>
+                                <span class="checkbox-text">I acknowledge the <a href="terms.html">Terms of Service</a> and <a href="privacy.html">Privacy Policy</a>.</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="enroll-btn-massive">
+                        <span>Register for Access</span>
+                        <i data-lucide="arrow-right"></i>
+                    </button>
+                </form>
+            </div>
+
+
+        </section>
+    </main>
+
+    <!-- Confirmation Modal -->
+    <div id="confirmModal" class="modal-overlay">
+        <div class="modal-box">
+            <div class="modal-header">
+                <div class="modal-icon"><i data-lucide="alert-circle"></i></div>
+                <h3>Confirm Registration</h3>
+            </div>
+            <p class="modal-text">You are about to initialize your professional registration for the Edugo platform. Please ensure all details are accurate before proceeding to the coordinator review phase.</p>
+            <div class="modal-actions">
+                <button id="cancelBtn" class="btn-modal btn-cancel">Go Back</button>
+                <button id="confirmBtn" class="btn-modal btn-confirm">Submit</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="index.html" class="logo footer-logo">
+                    <img src="logo.png" alt="Edugo" class="logo-image">
+                </a>
+                <p class="footer-description">Master your future with professional, curated, and professional learning paths.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg></a>
+                    <a href="#" aria-label="Twitter"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg></a>
+                    <a href="#" aria-label="Instagram"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg></a>
+                    <a href="#" aria-label="Github"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg></a>
+                </div>
+            </div>
+            <div class="footer-links-group">
+                <div class="footer-column">
+                    <h4>Platform</h4>
+                    <a href="courses.html">Courses</a>
+                    <a href="mentorship.html">Mentorship</a>
+                    <a href="pricing.html">Pricing</a>
+                    <a href="become-a-mentor.html">Become a Mentor</a>
+
+                </div>
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <a href="about.html">About Us</a>
+                    <a href="careers.html">Careers</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Legal</h4>
+                    <a href="terms.html">Terms of Service</a>
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="cookies.html">Cookie Policy</a>
+                    <a href="sitemap.html">Site Map</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> Edugo Inc. All rights reserved.</p>
+            <p>Developed by <a href="https://www.echoess.in" target="_blank" class="dev-link">Echoes Software Technologies</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Pre-select course from URL
+            const urlParams = new URLSearchParams(window.location.search);
+            const courseId = urlParams.get('path');
+            if (courseId) {
+                const select = document.getElementById('courseSelect');
+                if (select) select.value = courseId;
+            }
+
+            // Modal Logic
+            const form = document.getElementById('enrollmentForm');
+            const modal = document.getElementById('confirmModal');
+            const cancelBtn = document.getElementById('cancelBtn');
+            const confirmBtn = document.getElementById('confirmBtn');
+
+            form.addEventListener('submit', (e) => {
+                e.preventDefault();
+                // Show modal instead of immediate alert
+                modal.classList.add('active');
+            });
+
+            cancelBtn.addEventListener('click', () => {
+                modal.classList.remove('active');
+            });
+
+            confirmBtn.addEventListener('click', () => {
+                modal.classList.remove('active');
+                alert('Registration submitted. Our coordinators will review your profile and provide access within 24 hours.');
+                window.location.href = 'index.html';
+            });
+
+            // Close modal on outside click
+            modal.addEventListener('click', (e) => {
+                if (e.target === modal) modal.classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>

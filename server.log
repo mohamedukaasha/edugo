@@ -1,0 +1,213 @@
+127.0.0.1 - - [15/Mar/2026 11:04:49] "HEAD / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 11:05:20] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 11:05:20] "GET /style.css HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 11:05:20] "GET /logo.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 11:05:20] "GET /script.js HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 11:05:20] "GET /assets/favicon.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 11:05:47] "GET /blog.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 11:11:45] "GET /become-a-mentor.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 11:12:04] "GET /contact.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 11:12:23] code 404, message File not found
+127.0.0.1 - - [15/Mar/2026 11:12:23] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [15/Mar/2026 11:19:35] code 404, message File not found
+127.0.0.1 - - [15/Mar/2026 11:19:35] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [15/Mar/2026 11:23:38] "GET /become-a-mentor.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 11:23:48] "GET /become-a-mentor.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 11:24:03] code 404, message File not found
+127.0.0.1 - - [15/Mar/2026 11:24:03] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [15/Mar/2026 11:25:08] "GET /become-a-mentor.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 11:25:54] "GET /become-a-mentor.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 11:28:02] "GET /become-a-mentor.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 11:28:05] "GET /become-a-mentor.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 11:28:13] "GET /become-a-mentor.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 11:29:27] code 404, message File not found
+127.0.0.1 - - [15/Mar/2026 11:29:27] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [15/Mar/2026 11:30:52] "GET /become-a-mentor.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 11:31:12] "GET /pricing.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 11:32:37] "GET /contact.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 11:32:42] "GET /contact.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 11:32:50] "GET /about.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 11:32:50] "GET /assets/ukaasha_founder.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 11:32:50] "GET /assets/banners/banner1.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 11:32:50] "GET /assets/banners/banner2.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 11:32:50] "GET /assets/banners/banner4.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 11:32:50] "GET /assets/banners/banner3.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 11:33:05] "GET /mentorship.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 11:33:10] "GET /courses.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 11:33:19] "GET /university-consultation.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 11:46:20] "GET /admissions-consulting.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 11:46:21] "GET /assets/testimonial_student.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 11:46:24] "GET /admissions-consulting.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 11:47:29] "GET /admissions-consulting.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 12:03:54] "GET /contact.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:43:45] "GET /about.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:43:45] "GET /style.css HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:43:45] "GET /logo.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:43:45] "GET /assets/ukaasha_founder.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:43:45] "GET /assets/banners/banner2.png HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 14:43:45] "GET /assets/banners/banner1.png HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 14:43:45] "GET /script.js HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:43:45] "GET /assets/banners/banner3.png HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 14:43:45] "GET /assets/banners/banner4.png HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 14:43:45] "GET /assets/favicon.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:44:02] code 404, message File not found
+127.0.0.1 - - [15/Mar/2026 14:44:02] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [15/Mar/2026 14:45:59] "GET /about.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:45:59] code 404, message File not found
+127.0.0.1 - - [15/Mar/2026 14:45:59] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [15/Mar/2026 14:45:59] "GET /assets/banners/banner2.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:45:59] "GET /assets/banners/banner1.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:45:59] "GET /assets/banners/banner3.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:45:59] "GET /assets/banners/banner4.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:46:19] "GET /about.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:46:19] "GET /assets/banners/banner1.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:46:19] "GET /assets/banners/banner2.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:46:19] "GET /assets/banners/banner3.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:46:19] "GET /assets/banners/banner4.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:46:23] code 404, message File not found
+127.0.0.1 - - [15/Mar/2026 14:46:23] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [15/Mar/2026 14:46:50] "GET /about.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:46:50] "GET /assets/banners/banner1.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:46:51] "GET /assets/banners/banner2.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:46:51] "GET /assets/banners/banner4.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:46:51] "GET /assets/banners/banner3.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:47:42] "GET /about.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:47:42] "GET /assets/banners/banner1.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:47:42] "GET /assets/banners/banner2.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:47:42] "GET /assets/banners/banner3.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:47:42] "GET /assets/banners/banner4.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:47:44] "GET /about.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:47:46] code 404, message File not found
+127.0.0.1 - - [15/Mar/2026 14:47:46] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [15/Mar/2026 14:48:05] "GET /about.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:48:05] code 404, message File not found
+127.0.0.1 - - [15/Mar/2026 14:48:05] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [15/Mar/2026 14:49:15] "GET /about.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:49:15] code 404, message File not found
+127.0.0.1 - - [15/Mar/2026 14:49:15] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [15/Mar/2026 14:49:15] "GET /assets/banners/banner2.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:49:15] "GET /assets/banners/banner1.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:49:16] "GET /assets/banners/banner3.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:49:16] "GET /assets/banners/banner4.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:49:29] "GET /about.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:49:29] code 404, message File not found
+127.0.0.1 - - [15/Mar/2026 14:49:29] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [15/Mar/2026 14:50:04] "GET /about.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:50:04] "GET /assets/banners/banner1.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:50:04] "GET /assets/banners/banner2.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:50:04] "GET /assets/banners/banner3.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:50:04] "GET /assets/banners/banner4.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:50:43] code 404, message File not found
+127.0.0.1 - - [15/Mar/2026 14:50:43] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [15/Mar/2026 14:50:44] "GET /about.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:50:44] code 404, message File not found
+127.0.0.1 - - [15/Mar/2026 14:50:44] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [15/Mar/2026 14:55:32] "GET /about.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:55:32] "GET /assets/banners/banner1.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:55:32] "GET /assets/banners/banner2.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:55:33] "GET /assets/banners/banner3.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:55:33] "GET /assets/banners/banner4.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:55:37] code 404, message File not found
+127.0.0.1 - - [15/Mar/2026 14:55:37] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [15/Mar/2026 14:55:50] "GET /about.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:55:50] code 404, message File not found
+127.0.0.1 - - [15/Mar/2026 14:55:50] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [15/Mar/2026 14:56:03] "GET /about.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:56:03] code 404, message File not found
+127.0.0.1 - - [15/Mar/2026 14:56:03] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [15/Mar/2026 14:56:07] "GET /about.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:56:08] code 404, message File not found
+127.0.0.1 - - [15/Mar/2026 14:56:08] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [15/Mar/2026 14:56:14] "GET /about.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:56:14] code 404, message File not found
+127.0.0.1 - - [15/Mar/2026 14:56:14] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [15/Mar/2026 14:56:26] "GET /about.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:56:26] code 404, message File not found
+127.0.0.1 - - [15/Mar/2026 14:56:26] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [15/Mar/2026 14:56:35] "GET /about.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:56:35] code 404, message File not found
+127.0.0.1 - - [15/Mar/2026 14:56:35] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [15/Mar/2026 14:57:29] "GET /about.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:57:29] code 404, message File not found
+127.0.0.1 - - [15/Mar/2026 14:57:29] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [15/Mar/2026 14:57:29] "GET /assets/banners/banner2.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:57:29] "GET /assets/banners/banner1.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:57:29] "GET /assets/banners/banner4.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 14:57:29] "GET /assets/banners/banner3.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 15:01:42] "GET /about.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 15:01:42] "GET /assets/banners/banner1.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 15:01:42] "GET /assets/banners/banner2.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 15:01:42] "GET /assets/banners/banner3.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 15:01:42] "GET /assets/banners/banner4.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 15:01:47] code 404, message File not found
+127.0.0.1 - - [15/Mar/2026 15:01:47] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [15/Mar/2026 15:02:46] "GET /about.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 15:02:46] code 404, message File not found
+127.0.0.1 - - [15/Mar/2026 15:02:46] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [15/Mar/2026 15:03:00] "GET /about.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 15:03:00] code 404, message File not found
+127.0.0.1 - - [15/Mar/2026 15:03:00] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [15/Mar/2026 15:03:23] "GET /blog.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 15:05:06] "GET /blog.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 15:05:20] "GET /blog.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 15:05:21] "GET /blog.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 15:05:21] "GET /blog.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 15:05:21] "GET /blog.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 15:05:28] "GET /mentorship.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 15:05:36] code 404, message File not found
+127.0.0.1 - - [15/Mar/2026 15:05:36] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [15/Mar/2026 15:06:18] "GET /courses.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 15:06:24] "GET /courses.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 15:06:27] "GET /university-consultation.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 15:06:37] "GET /admissions-consulting.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 15:06:37] "GET /assets/testimonial_student.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 15:07:12] "GET /careers.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 15:07:12] code 404, message File not found
+127.0.0.1 - - [15/Mar/2026 15:07:12] "GET /assets/careers_hero.png HTTP/1.1" 404 -
+127.0.0.1 - - [15/Mar/2026 15:09:22] "GET /careers.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 15:10:42] "GET /careers.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 15:11:11] "GET /careers.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 15:11:17] code 404, message File not found
+127.0.0.1 - - [15/Mar/2026 15:11:17] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [15/Mar/2026 15:12:30] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 15:12:37] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 15:12:41] "GET /sitemap.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 15:14:13] "GET /sitemap.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 15:14:49] "GET /sitemap.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 15:14:54] code 404, message File not found
+127.0.0.1 - - [15/Mar/2026 15:14:54] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [15/Mar/2026 15:15:29] "GET /sitemap.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 15:15:48] code 404, message File not found
+127.0.0.1 - - [15/Mar/2026 15:15:48] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [15/Mar/2026 15:16:24] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 15:17:05] "GET /assets/banners/banner1.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 15:17:05] "GET /assets/banners/banner2.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 15:17:05] "GET /assets/banners/banner3.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 15:17:05] "GET /assets/banners/banner4.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 15:17:09] "GET /about.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 15:17:21] "GET /contact.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 15:17:47] "GET /become-a-mentor.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 15:17:58] "GET /pricing.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 15:18:10] "GET /enroll.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 15:18:26] "GET /careers.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 15:18:42] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 15:21:37] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 15:21:45] code 404, message File not found
+127.0.0.1 - - [15/Mar/2026 15:21:45] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [15/Mar/2026 15:35:24] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 15:36:34] "GET /contact.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 15:38:28] "GET /contact.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 15:38:35] "GET /sitemap.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 15:38:39] "GET /admissions-consulting.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 15:40:17] "GET /university-consultation.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 15:40:30] "GET /become-a-mentor.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 15:40:36] "GET /pricing.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 15:41:09] "GET /enroll.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 15:41:15] "GET /careers.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 15:42:34] "GET /careers.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 15:44:54] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 15:45:48] "GET /about.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 15:45:48] "GET /assets/banners/banner1.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 15:45:48] "GET /assets/banners/banner2.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 15:45:48] "GET /assets/banners/banner3.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Mar/2026 15:45:48] "GET /assets/banners/banner4.png HTTP/1.1" 304 -
