@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
 :root {
     /* Color Palette */
     --bg-primary: #FFFFFF;
@@ -42,7 +44,7 @@
     padding: 0;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
-    font-family: 'Lexend', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 html {
@@ -50,7 +52,7 @@ html {
 }
 
 body {
-    font-family: 'Lexend', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif;
     background-color: var(--bg-primary);
     color: var(--text-primary);
     line-height: 1.6;
@@ -729,7 +731,7 @@ section {
 }
 
 .course-id {
-    font-family: 'Lexend', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 0.65rem;
     color: var(--text-secondary);
     letter-spacing: 0.05em;
@@ -2415,7 +2417,7 @@ section {
 }
 
 .quote-sign {
-    font-family: 'Lexend', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 8rem;
     line-height: 1;
     color: var(--accent-yellow);
